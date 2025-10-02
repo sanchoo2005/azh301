@@ -1,0 +1,4 @@
+a = int(input('введине:'))
+b = int(input('введине:'))
+k = a // b
+print(k)

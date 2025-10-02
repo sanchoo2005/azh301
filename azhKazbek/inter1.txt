@@ -1,0 +1,3 @@
+a = int(input('введине:'))
+m = a // 100
+print(m)
