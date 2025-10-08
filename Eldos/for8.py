@@ -1,8 +1,8 @@
 A = int(input("Введите число A: "))
 B = int(input("Введите число B (B > A): "))
-summa = 0
+proz = 1
 
 for i in range(A, B + 1):
-    summa += i
+    proz *= i
 
-print("Сумма всех целых чисел от A до B включительно:", summa)
+print("Сумма всех целых чисел от A до B включительно:", proz)

@@ -1,8 +1,8 @@
 A = int(input("Введите число A: "))
 B = int(input("Введите число B (B > A): "))
-summa = 0
 
+sum_squares = 0
 for i in range(A, B + 1):
-    summa += i
+    sum_squares += i ** 2
 
-print("Сумма всех целых чисел от A до B включительно:", summa)
+print("Сумма квадратов от", A, "до", B, "равна", sum_squares)
